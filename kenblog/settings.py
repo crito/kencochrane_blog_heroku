@@ -98,6 +98,7 @@ INSTALLED_APPS = (
     'django.contrib.markup',
     'south',
     'memcache_status',
+    'gunicorn',
 )
 
 # Activity sync settings
