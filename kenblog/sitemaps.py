@@ -2,7 +2,7 @@ from django.contrib.sitemaps import Sitemap
 from django.core.urlresolvers import reverse
 from datetime import datetime
 
-from mysite.blog.models import Entry
+from blog.models import Entry
 from tagging.models import Tag
 
 class SectionSitemap(Sitemap):

@@ -4,8 +4,8 @@ from django.http import Http404
 from django.views.decorators.cache import cache_page
 from django.views.generic import date_based, list_detail, simple
 
-from mysite.blog.models import Entry
-from mysite.blog.paginator import InfinitePaginator
+from blog.models import Entry
+from blog.paginator import InfinitePaginator
 from tagging.views import tagged_object_list
 
 import datetime

@@ -1,9 +1,9 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
 from django.contrib.sitemaps import FlatPageSitemap, GenericSitemap
-from mysite.blog.feeds import LatestEntriesFeed, LatestEntriesByTagFeed
-from mysite.blog.models import Entry
-from mysite.sitemaps import SectionSitemap, BlogArchiveSitemap, TagSitemap
+from blog.feeds import LatestEntriesFeed, LatestEntriesByTagFeed
+from blog.models import Entry
+from sitemaps import SectionSitemap, BlogArchiveSitemap, TagSitemap
 
 from django.contrib import admin
 admin.autodiscover()

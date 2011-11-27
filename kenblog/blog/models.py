@@ -5,7 +5,7 @@ from django.contrib.syndication.feeds import Feed
 from django.template.defaultfilters import slugify
 from django.utils.encoding  import smart_str, force_unicode
 
-from mysite.blog.managers import PublishedManager
+from managers import PublishedManager
 from tagging.fields import TagField
 from tagging.models import Tag
 

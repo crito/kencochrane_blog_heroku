@@ -4,10 +4,10 @@ from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
 from django.views.decorators.cache import cache_page
 
-from mysite.blog.models import Entry
+from blog.models import Entry
 from activitysync.models import Activity
 from blog.views import blog_entry_detail
-from mysite.blog.paginator import InfinitePaginator
+from blog.paginator import InfinitePaginator
 
 @cache_page(60 * 15)
 def index(request):

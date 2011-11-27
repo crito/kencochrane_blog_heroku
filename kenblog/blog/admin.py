@@ -1,5 +1,5 @@
 # Blog application admin page
-from mysite.blog.models import Entry
+from blog.models import Entry
 from django.contrib import admin
 from django import forms
 from django.forms.widgets import Textarea
