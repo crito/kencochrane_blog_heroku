@@ -90,7 +90,7 @@ INSTALLED_APPS = (
     'activitysync',
     'blog',
     'disqus',
-    'metaweblog',
+    #'metaweblog',
     'tagging',
     'django.contrib.admin',
     'django.contrib.admindocs',
@@ -111,4 +111,5 @@ ACTIVITYSYNC_SETTINGS = None
 
 # leaving this blank, because heroku assumes it is here, and it will override it anyway.
 DATABASES = {}
+
 

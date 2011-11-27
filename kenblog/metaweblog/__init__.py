@@ -1,2 +1,2 @@
-import metaweblog
+#import metaweblog
 
