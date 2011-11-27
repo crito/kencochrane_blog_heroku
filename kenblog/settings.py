@@ -90,7 +90,7 @@ INSTALLED_APPS = (
     'activitysync',
     'blog',
     'disqus',
-    #'metaweblog',
+    'metaweblog',
     'tagging',
     'django.contrib.admin',
     'django.contrib.admindocs',
