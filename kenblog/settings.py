@@ -66,7 +66,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 )
 
-ROOT_URLCONF = 'blog.urls'
+ROOT_URLCONF = 'kenblog.urls'
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates/'),
