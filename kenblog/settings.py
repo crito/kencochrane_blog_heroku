@@ -31,9 +31,9 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 MEDIA_ROOT = os.path.join(BASE_DIR, 'site-media/')
 ADMIN_MEDIA_ROOT = os.path.join(BASE_DIR, 'site-media/admin/')
 
-MEDIA_URL = "/static/"
+MEDIA_URL = "/site-media/"
 
-STATIC_URL = '/static/'
+STATIC_URL = '/site-media/'
 
 # Make this unique, and don't share it with anybody.
 # This should be defined in the local_settings.py file
@@ -110,6 +110,6 @@ ACTIVITYSYNC_PROVIDERS = (
 ACTIVITYSYNC_SETTINGS = None
 
 # leaving this blank, because heroku assumes it is here, and it will override it anyway.
-#DATABASES = {}
+DATABASES = {}
 
 

@@ -46,12 +46,11 @@ urlpatterns = patterns('',
     url(r'^$', view='views.index', name='main_index'),
 )
 
-if settings.DEBUG:
-    from settings import MEDIA_ROOT, ADMIN_MEDIA_ROOT
-    
-    urlpatterns += patterns('',
-        url(r'^site-media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': MEDIA_ROOT,
-            'show_indexes': True}),
-        url(r'^admin-media/(?P<path>.*)$', 'django.views.static.serve',
-            {'document_root': ADMIN_MEDIA_ROOT, 'show_indexes': True}),
-    )
+from settings import MEDIA_ROOT, ADMIN_MEDIA_ROOT
+
+urlpatterns += patterns('',
+    url(r'^site-media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': MEDIA_ROOT,
+        'show_indexes': True}),
+    url(r'^admin-media/(?P<path>.*)$', 'django.views.static.serve',
+        {'document_root': ADMIN_MEDIA_ROOT, 'show_indexes': True}),
+)
