@@ -6,7 +6,7 @@ from blog.models import Entry
 from tagging.models import Tag, TaggedItem
 from django.contrib.sites.models import Site
 
-#from mysite.deploy import SITE_TITLE
+#from deploy import SITE_TITLE
 SITE_TITLE = "Ken Cochrane"
 
 class LatestEntriesFeed(Feed):

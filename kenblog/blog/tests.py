@@ -1,5 +1,5 @@
 from django.test import TestCase
-from mysite.blog.templatetags import blog_extras
+from blog.templatetags import blog_extras
 
 class MyTests(TestCase):
 

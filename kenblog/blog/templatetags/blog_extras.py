@@ -1,5 +1,5 @@
 from django import template
-from mysite.blog.models import Entry
+from blog.models import Entry
 from tagging.models import Tag
 
 register = template.Library()

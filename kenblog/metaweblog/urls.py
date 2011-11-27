@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import *
-from mysite.metaweblog import views as mw_views
+from metaweblog import views as mw_views
 
 
 urlpatterns = patterns('',

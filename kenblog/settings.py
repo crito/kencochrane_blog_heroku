@@ -78,7 +78,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.debug',
     'django.core.context_processors.media',
     'django.contrib.messages.context_processors.messages',
-    'mysite.context_processors.CurrentSite',
+    'context_processors.CurrentSite',
 )
 
 INSTALLED_APPS = (
