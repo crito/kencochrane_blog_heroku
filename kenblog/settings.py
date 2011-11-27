@@ -110,6 +110,6 @@ ACTIVITYSYNC_PROVIDERS = (
 ACTIVITYSYNC_SETTINGS = None
 
 # leaving this blank, because heroku assumes it is here, and it will override it anyway.
-DATABASES = {}
+#DATABASES = {}
 
 
